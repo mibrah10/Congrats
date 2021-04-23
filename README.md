@@ -5,3 +5,4 @@ Intial Goal:
 The goal for this product is the create a program that people can use on a regular basis to help assist knock out their bucket list. People always struggle making decisions a lot of times so this program will help fix that issue to the general population. What they will do is input their bucket list items, run the program, and out pops one of the choices. Now the user will complete that item and when that is over they will run it again until all their items have been completed. Once they are all completed they will get a "Congratulations" message letting them know all the items have been achieved!
 
 The Process:
+The user will input data into the bucketlist. The item will then be chosen individually once successfully accomplished and the program will make the option no longer available. The process is then continued by the user. After the final item listen is chosen, the user will receive a message that states "Congratulations you did it!"
