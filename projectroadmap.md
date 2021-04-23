@@ -19,7 +19,7 @@ Austin will be working on the random generating ability of doing full sentences 
 
 Both of us are focusing on one portion and working to combine them so they will flow together
 
-One code that we have attempted is the following
+Two codes that we have attempted is the following
 
 # Python code to pick a random
 # word from a text file
@@ -32,3 +32,9 @@ with open("MyFile.txt", "r") as file:
   
  # print random string
     print(random.choice(words))
+
+ # function to delete item off bucket list 
+    def delete_item(goal_name):
+	bucketList = file.read.bucketList
+	bucketList.remove({'name': goal_name})
+	return "Goal deleted successfully!"
