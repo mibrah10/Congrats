@@ -9,3 +9,9 @@ with open("MyFile.txt", "r") as file:
   
     # print random string
     print(random.choice(words))
+    
+    # function to delete item off bucket list 
+    def delete_item(goal_name):
+	bucketList = file.read.bucketList
+	bucketList.remove({'name': goal_name})
+	return "Goal deleted successfully!"
